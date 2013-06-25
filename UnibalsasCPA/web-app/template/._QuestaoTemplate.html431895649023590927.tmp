@@ -1,0 +1,13 @@
+<div class="control-group">
+	<label class="control-label" for="inputDescricao">Descrição</label>
+	<div class="controls">
+		<input type="text" id="inputDescricao"
+			placeholder="Descrição da pergunta">
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="inputAjuda">Texto de ajuda</label>
+	<div class="controls">
+		<input type="text" id="inputAjuda" placeholder="Texto de ajuda">
+	</div>
+</div>

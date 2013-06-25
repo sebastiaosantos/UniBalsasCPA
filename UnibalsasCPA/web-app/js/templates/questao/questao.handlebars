@@ -1,0 +1,17 @@
+ <table>
+    <thead>
+      <th messages="i18nUsername"></th>
+      <th messages="i18nRealName"></th>
+      <th messages="i18nEmail"></th>
+    </thead>
+    <tbody>
+      {{#users}}
+        <tr>
+          <td>{{username}}</td>
+          <td>{{firstName}} {{lastName}}</td>
+          <td>{{email}}</td>
+        </tr>
+      {{/users}}
+    </tbody>
+  </table>
+  
